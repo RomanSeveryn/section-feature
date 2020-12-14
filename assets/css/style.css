@@ -1,0 +1,45 @@
+@import "./reset.css";
+@import "./grid.css";
+/* @import "./bootstrap-grid.css"; */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+header {
+min-height: 400px;
+min-width: 100%;
+background-color: chocolate;
+}
+main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 800px;
+}
+section {
+  display: flex;
+  align-items: center;
+  min-height: 800px;
+  text-align: center;
+}
+.image {
+  margin-bottom: 2em;
+}
+footer {
+min-width: 100%;
+min-height: 500px;
+background-color: coral;
+margin-top: auto;
+}
+.column {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.content {
+  white-space: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
