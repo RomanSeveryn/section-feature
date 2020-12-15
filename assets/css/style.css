@@ -43,3 +43,11 @@ margin-top: auto;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 1em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
