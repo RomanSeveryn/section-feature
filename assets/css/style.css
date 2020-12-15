@@ -25,8 +25,13 @@ section {
   min-height: 800px;
   text-align: center;
 }
-.image {
+.image-wrapper {
   margin-bottom: 2em;
+}
+.img {
+  max-width: 370px;
+  max-height: 70px;
+  object-fit: cover;
 }
 footer {
 min-width: 100%;
@@ -50,4 +55,5 @@ h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  text-transform: uppercase;
 }
