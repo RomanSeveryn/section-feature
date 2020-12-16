@@ -2,24 +2,24 @@
 @import "./grid.css";
 /* @import "./bootstrap-grid.css"; */
 
-body {
+.body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
+  font-family: sans-serif;
 }
-header {
-min-height: 400px;
-min-width: 100%;
-background-color: chocolate;
+.header {
+  min-height: 400px;
+  min-width: 100%;
+  background-color: chocolate;
 }
-main {
-display: flex;
-flex-direction: column;
-justify-content: center;
-min-height: 800px;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 800px;
 }
-section {
+.section {
   display: flex;
   align-items: center;
   min-height: 800px;
@@ -27,33 +27,32 @@ section {
 }
 .image-wrapper {
   margin-bottom: 2em;
+  max-height: 70px;
+  margin: 0 auto;
 }
 .img {
-  max-width: 370px;
-  max-height: 70px;
+  max-width: 100%;
+  min-height: 60px;
   object-fit: cover;
 }
-footer {
-min-width: 100%;
-min-height: 500px;
-background-color: coral;
-margin-top: auto;
+.footer {
+  min-width: 100%;
+  min-height: 500px;
+  background-color: coral;
+  margin-top: auto;
 }
-.column {
+.container-item {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.content {
-  white-space: wrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-h1 {
+.heading {
   font-weight: 600;
-  margin-bottom: 1em;
+  margin-top: 2em;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   text-transform: uppercase;
+}
+.paragraph {
+  margin-top: 2em;
 }
